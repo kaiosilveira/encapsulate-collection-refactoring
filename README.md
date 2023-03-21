@@ -1,46 +1,8 @@
-[![Continuous Integration](https://github.com/kaiosilveira/refactoring-catalog-template/actions/workflows/ci.yml/badge.svg)](https://github.com/kaiosilveira/refactoring-catalog-template/actions/workflows/ci.yml)
-
-# Refactoring catalog repository template
-
-This is a quick template to help me get a new refactoring repo going.
-
-## Things to do after creating a repo off of this template
-
-1. Replace `[REPOSITORY_NAME]` by the actual repository name
-
-2. Set the text at the project description in GitHub to
-
-```
-Working example with detailed commit history on the "[REPOSITORY_NAME]" refactoring based on Fowler's "Refactoring" book"
-```
-
-3. Replace the lorem ipsum text sections below with actual text
-
-4. Configure the CI badge:
-
-```
-[![CI](https://github.com/kaiosilveira/[REPOSITORY_NAME]/actions/workflows/ci.yml/badge.svg)](https://github.com/kaiosilveira/[REPOSITORY_NAME]/actions/workflows/ci.yml)
-```
-
-## Useful commands
-
-- Generate a patch diff and write the result to a file:
-
-```bash
-git log --patch --reverse > data.diff
-```
-
-- Generates the commit history table for the last section, including the correct links
-
-```bash
-yarn template:generate-cmt-table [REPOSITORY_NAME]
-```
-
----
+[![Continuous Integration](https://github.com/kaiosilveira/encapsulate-collection/actions/workflows/ci.yml/badge.svg)](https://github.com/kaiosilveira/encapsulate-collection/actions/workflows/ci.yml)
 
 ℹ️ _This repository is part of my Refactoring catalog based on Fowler's book with the same title. Please see [kaiosilveira/refactoring](https://github.com/kaiosilveira/refactoring) for more details._
 
-# Refactoring name
+# Encapsulate Collection
 
 **Refactoring introduction and motivation** dolore sunt deserunt proident enim excepteur et cillum duis velit dolor. Aute proident laborum officia velit culpa enim occaecat officia sunt aute labore id anim minim. Eu minim esse eiusmod enim nulla Lorem. Enim velit in minim anim anim ad duis aute ipsum voluptate do nulla. Ad tempor sint dolore et ullamco aute nulla irure sunt commodo nulla aliquip.
 
@@ -104,10 +66,10 @@ And that's it!
 
 Below there's the commit history for the steps detailed above.
 
-| Commit SHA                                                                  | Message                  |
-| --------------------------------------------------------------------------- | ------------------------ |
-| [cmt-sha-1](https://github.com/kaiosilveira/[REPOSITORY_NAME]/commit-SHA-1) | description of commit #1 |
-| [cmt-sha-2](https://github.com/kaiosilveira/[REPOSITORY_NAME]/commit-SHA-2) | description of commit #2 |
-| [cmt-sha-n](https://github.com/kaiosilveira/[REPOSITORY_NAME]/commit-SHA-n) | description of commit #n |
+| Commit SHA                                                                       | Message                  |
+| -------------------------------------------------------------------------------- | ------------------------ |
+| [cmt-sha-1](https://github.com/kaiosilveira/encapsulate-collection/commit-SHA-1) | description of commit #1 |
+| [cmt-sha-2](https://github.com/kaiosilveira/encapsulate-collection/commit-SHA-2) | description of commit #2 |
+| [cmt-sha-n](https://github.com/kaiosilveira/encapsulate-collection/commit-SHA-n) | description of commit #n |
 
-For the full commit history for this project, check the [Commit History tab](https://github.com/kaiosilveira/[REPOSITORY_NAME]/commits/main).
+For the full commit history for this project, check the [Commit History tab](https://github.com/kaiosilveira/encapsulate-collection/commits/main).
