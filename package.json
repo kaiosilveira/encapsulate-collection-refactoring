@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "refactoring-catalog-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kaiosilveira/refactoring-catalog-template.git",
+  "author": "Kaio Silveira <silveira.kaio@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
+    "template:generate-cmt-table": "node ./tooling/create-commit-history-table/index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3"
+  }
+}
