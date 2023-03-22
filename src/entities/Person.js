@@ -13,7 +13,7 @@ export default class Person {
   }
 
   set courses(aList) {
-    this._courses = aList;
+    this._courses = aList.slice();
   }
 
   addCourse(aCourse) {
